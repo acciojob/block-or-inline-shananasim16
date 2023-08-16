@@ -1,2 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-/* Your CSS Code here. */
+div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, span, p, input, cite, code, h1, sup, sub {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.block-inline-button button,
+.block-inline-span span,
+.block-inline-p p,
+.block-inline-input input,
+.block-inline-cite cite,
+.block-inline-code code,
+.block-inline-h1 h1,
+.block-inline-sup sup,
+.block-inline-sub sub {
+    display: inline;
+}
